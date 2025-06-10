@@ -1,0 +1,17 @@
+.FormImput {
+    
+    & input{
+        border-radius: 5px;
+        padding: 20px;
+        width: 400px;
+        border: none;
+    }
+
+    & .lock{
+        position: relative;
+        z-index: 2;
+        right: 40px;
+        color: var(--back-color);
+    }
+
+}

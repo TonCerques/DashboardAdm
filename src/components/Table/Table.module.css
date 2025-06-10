@@ -1,0 +1,30 @@
+.TableContainer{
+    display: flex;
+    flex-direction: column;
+    color: var(--back-color);
+    background-color: var(--element-color);
+    padding: 40px;
+    border-radius: 5px;
+    & .header{
+        background-color: #cecece;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      
+        
+    }
+
+    & .List{
+        padding: 20px;
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+        
+        
+        & p{
+            margin-bottom: 15px;
+        }
+    }
+
+}
