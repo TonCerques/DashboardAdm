@@ -1,31 +1,21 @@
-:root{
+:root {
     background-color: var(--back-color);
     width: 100%;
     height: 100dvh;
-    font-size: 22px;
+    font-size: 16px;
 }
 
-.layout{
+.layout {
     display: flex;
-    
 
-    & .SideIcons{
-        font-size: 22px;
+    & .LogoSenac {
+        object-fit: cover;
+        width: 150px;
     }
 
-    & .LogoSenac{
+    & .SideTables {
+        padding: 20px;
         object-fit: cover;
-        width: 300px;
-        
-    }
-
-    & .SideTables{
-        padding: 20px;  
-        object-fit: cover;
-        height: 50dvh;
-        width: 25dvw;
-
-        
     }
 
 }
