@@ -1,0 +1,33 @@
+.loginContainer {
+    text-align: center;
+    color: white;
+    width: 100dvw;
+    height: 100dvh;
+    background-color: var(--back-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .LogoSenac{
+        width: 180px;
+        object-fit: cover;
+    }
+    .layoutLogin {
+        align-items: center;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        
+        & button{
+            width: 200px;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        
+    }
+
+
+}

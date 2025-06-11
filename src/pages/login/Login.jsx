@@ -14,7 +14,7 @@ export default function Login() {
                     <FormInput placeholder="Digite seu usuário" >
 
                     </FormInput>
-                    <FormInput placeholder="Digite sua senha" type="password">
+                    <FormInput placeholder="Digite sua senha, por favor." type="password">
                     </FormInput>
                     <button type="submite">Confirmar</button>
                 </div>
