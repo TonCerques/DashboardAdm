@@ -5,17 +5,17 @@ import { FaRegUserCircle } from "react-icons/fa";
 
 
 
-export default function SideBar(){
-    return(
+export default function SideBar() {
+    return (
         <>
-        <div className={styles.SideBarContainer}>
-            <div className={styles.Icons}>
-            <FaRegUserCircle className={styles.User}/>
-            <GiBoxUnpacking className={styles.Box} />
-            <IoPersonAdd className={styles.AddUser}/>
+            <div className={styles.SideBarContainer}>
+                <div className={styles.Icons}>
+                    <FaRegUserCircle className={styles.User} />
+                    <GiBoxUnpacking className={styles.Box} />
+                    <IoPersonAdd className={styles.AddUser} />
+                </div>
+                <div className={styles.Linha}></div>
             </div>
-            <div className={styles.Linha}></div>
-        </div>
         </>
     )
 }

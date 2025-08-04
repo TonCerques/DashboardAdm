@@ -1,28 +1,31 @@
-.TableContainer{
+.TableContainer {
     display: flex;
     flex-direction: column;
     color: var(--back-color);
     background-color: var(--element-color);
-    padding: 40px;
+    margin: 12px;
+    height: 100%;
+    width: 90dvw;
     border-radius: 5px;
-    & .header{
+
+    & .header {
         background-color: #cecece;
         padding: 20px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-      
-        
+
+
     }
 
-    & .List{
+    & .List {
         padding: 20px;
         display: flex;
         align-content: center;
         justify-content: space-around;
-        
-        
-        & p{
+
+
+        & p {
             margin-bottom: 15px;
         }
     }

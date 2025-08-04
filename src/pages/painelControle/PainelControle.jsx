@@ -9,13 +9,15 @@ export default function PainelControle() {
     return (
         <>
             <div className={styles.layout}>
-            <div className={styles.SideIcons}>
-                <SideBar className={styles.Icons}/>
-            </div>
-            <div className={styles.SideTables}>
-                <img className={styles.LogoSenac} src={logo} alt="" />
-                <Table className={styles.TableList} />
-            </div>
+                <div className={styles.SideIcons}>
+                    <SideBar className={styles.Icons} />
+                </div>
+                <div className={styles.SideTables}>
+                    <img className={styles.LogoSenac} src={logo} alt="" />
+                    <h3>Eduque Controle</h3>
+                    <button className="button-vendas" type="submite">Operação de Vendas</button>
+                    <Table className={styles.TableList} />
+                </div>
             </div>
         </>
     )

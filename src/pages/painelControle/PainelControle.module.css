@@ -15,7 +15,8 @@
 
     & .LogoSenac{
         object-fit: cover;
-        width: 300px;
+        width: 100px;
+        
         
     }
 
@@ -24,7 +25,10 @@
         object-fit: cover;
         height: 50dvh;
         width: 25dvw;
-
+        
+        & h3{
+            color: var(--font-color);
+        }
         
     }
 
