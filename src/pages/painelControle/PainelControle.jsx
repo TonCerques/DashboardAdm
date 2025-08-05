@@ -6,18 +6,19 @@ import Table from "../../components/Table/Table";
 // src/pages/painelControle/PainelControle.jsx
 import FilterForm from '../../components/FilterForm/FilterForm';
 import Button from '../../components/Button/Button'; // Importe o componente Button
-
-//button
 // src/pages/painelControle/PainelControle.jsx
+import Navbar from '../../components/Navbar/Navbar';
 
+//Navbar
 
 function PainelControle() {
   const handleBuscar = () => {
     alert('Botão Buscar foi clicado!');
   };
-  
+
   return (
     <div>
+      <Navbar /> {/* Adicione o Navbar aqui */}
       <h1>Painel de Controle</h1>
       <FilterForm />
       <Button text="Buscar" onClick={handleBuscar} />
@@ -27,6 +28,27 @@ function PainelControle() {
 }
 
 export default PainelControle;
+
+//button
+// src/pages/painelControle/PainelControle.jsx
+
+
+/*function PainelControle() {
+  const handleBuscar = () => {
+    alert('Botão Buscar foi clicado!');
+  };
+  
+  return (
+    <div>
+      <h1>Painel de Controle</h1>
+      <FilterForm />
+      <Button text="Buscar" onClick={handleBuscar} />
+      { }
+    </div>
+  );
+}
+
+export default PainelControle;*/
 
 //filterForm
 
