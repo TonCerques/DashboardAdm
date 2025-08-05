@@ -5,12 +5,22 @@ import logo from "../../assets/images/senac_logo.png";
 import Table from "../../components/Table/Table";
 // src/pages/painelControle/PainelControle.jsx
 import FilterForm from '../../components/FilterForm/FilterForm';
+import Button from '../../components/Button/Button'; // Importe o componente Button
+
+//button
+// src/pages/painelControle/PainelControle.jsx
+
 
 function PainelControle() {
+  const handleBuscar = () => {
+    alert('Botão Buscar foi clicado!');
+  };
+  
   return (
     <div>
       <h1>Painel de Controle</h1>
       <FilterForm />
+      <Button text="Buscar" onClick={handleBuscar} />
       {/* reservado a outros elementos */}
     </div>
   );
@@ -18,8 +28,26 @@ function PainelControle() {
 
 export default PainelControle;
 
+//filterForm
+
+
+/*function PainelControle() {
+  return (
+    <div>
+      <h1>Painel de Controle</h1>
+      <FilterForm />
+      { }
+    </div>
+  );
+}
+
+export default PainelControle;*/
+
+
 //teste aqui
 //http://localhost:5173/painelControle
+
+
 
 
 

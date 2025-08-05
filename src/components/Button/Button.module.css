@@ -1,0 +1,16 @@
+/* style do button */
+.button {
+  background-color: var(--font-color); /* A sua cor secundária */
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: var(--element-color); /* A sua cor primária */
+}
