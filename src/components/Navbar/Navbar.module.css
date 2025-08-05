@@ -14,8 +14,8 @@
 }
 
 .logo {
-  height: 40px; /* tamanho necessário */
-  margin-right: 15px;
+  height: 168px; /* tamanho necessário */
+  margin-right: 168px;
 }
 
 .title {
@@ -31,12 +31,15 @@
 .navButton {
   display: flex;
   align-items: center;
-  padding: 8px 15px;
+  padding: 5px 15px;
   background-color: transparent;
   border: 1px solid #fff;
   border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  height: 32px; /* Define a altura dos botões */
+  min-width: 150px; /* Ajuste um tamanho mínimo para o texto */
+  justify-content: center; /* Centraliza o texto e o ícone */
 }
 
 .navButton span {
