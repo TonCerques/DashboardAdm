@@ -25,11 +25,8 @@ function Navbar() {
           <FaChevronRight className={styles.arrowIcon} />
         </div>
 
-        {/* Botão de Agendamento de Estoque */}
-        <div className={styles.navButton}>
-          <span>Agendamento de Estoque</span>
-          <FaChevronRight className={styles.arrowIcon} />
-        </div>
+        {/* botão removido */}
+
       </div>
 
       <div className={styles.userIcon}>
@@ -40,3 +37,11 @@ function Navbar() {
 }
 
 export default Navbar;
+
+/* Botão de Agendamento de Estoque */
+
+        /*{}
+        <div className={styles.navButton}>
+          <span>Agendamento de Estoque</span>
+          <FaChevronRight className={styles.arrowIcon} />
+        </div>*/
