@@ -32,6 +32,7 @@ export default PainelControle;
 //button
 // src/pages/painelControle/PainelControle.jsx
 
+import Register from '../../components/Register/Register'; 
 
 /*function PainelControle() {
   const handleBuscar = () => {
@@ -78,16 +79,30 @@ export default PainelControle;*/
         <>
             <div className={styles.layout}>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/gabriel/develop
                 <div className={styles.SideIcons}>
                     <SideBar className={styles.Icons} />
                 </div>
                 <div className={styles.SideTables}>
                     <img className={styles.LogoSenac} src={logo} alt="" />
+<<<<<<< HEAD
                     <h3>Eduque Controle</h3>
                     <button className="button-vendas" type="submite">Operação de Vendas</button>
                     <Table className={styles.TableList} />
                 </div>
 =======
+=======
+
+
+
+
+/*export default function PainelControle() {
+    return (
+        <>
+            <div className={styles.layout}>
+>>>>>>> origin/gabriel/develop
             <div className={styles.SideIcons}>
                 <SideBar className={styles.Icons}/>
             </div>
