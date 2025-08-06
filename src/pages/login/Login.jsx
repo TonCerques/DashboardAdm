@@ -11,7 +11,10 @@ export default function Login() {
                 <img className={styles.LogoSenac} src={logo} alt="" />
                 <p>Bem vindo ao nosso ponto de Controle, por favor, <br />insira seus dados abaixo para acessar o Eduque Controle</p>
                 <div className={styles.layoutLogin}>
-                    <FormInput placeholder="Digite seu usuário" icon={<FaUser />}>
+                    <FormInput placeholder="Digite seu usuário" >
+
+                    </FormInput>
+                    <FormInput placeholder="Digite sua senha, por favor." type="password">
                     </FormInput>
                     <FormInput className={styles.password} placeholder="Digite sua senha" type="password" icon={<FaLock />}>                    </FormInput>
                     <button type="submite">Confirmar</button>
