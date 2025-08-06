@@ -1,0 +1,23 @@
+& .ButtonPage {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: var(--back-color);
+    
+    & button {
+        background-color: var(--element-color);
+        text-align: start;
+        border: none;
+        border-radius: 15px;
+        padding: 8px;
+        width: 13dvw;
+    }
+
+    & .icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 1rem;
+        top: calc(50% - (1rem/2));
+    }
+}

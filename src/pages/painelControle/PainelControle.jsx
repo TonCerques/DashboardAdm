@@ -77,6 +77,7 @@ export default PainelControle;*/
     return (
         <>
             <div className={styles.layout}>
+<<<<<<< HEAD
                 <div className={styles.SideIcons}>
                     <SideBar className={styles.Icons} />
                 </div>
@@ -86,6 +87,18 @@ export default PainelControle;*/
                     <button className="button-vendas" type="submite">Operação de Vendas</button>
                     <Table className={styles.TableList} />
                 </div>
+=======
+            <div className={styles.SideIcons}>
+                <SideBar className={styles.Icons}/>
+            </div>
+            <div className={styles.SideTables}>
+                <img className={styles.LogoSenac} src={logo} alt="" />
+                <Table className={styles.TableList} />
+            </div>
+            <div className={styles.ViewList}>
+                <View/>
+            </div>
+>>>>>>> origin/Dev/Well
             </div>
         </>
     )

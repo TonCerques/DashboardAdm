@@ -8,18 +8,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .LogoSenac{
+
+    .LogoSenac {
         width: 180px;
         object-fit: cover;
     }
+
     .layoutLogin {
         align-items: center;
         margin: 1rem;
         display: flex;
         flex-direction: column;
         gap: 1rem;
-        
-        & button{
+
+        & button {
             width: 200px;
             border: none;
             padding: 10px;
@@ -27,8 +29,11 @@
             background-color: var(--second-color);
         }
 
-        
+        & .password{
+
+            & .lock{
+            
+            }
+        }
     }
-
-
 }
